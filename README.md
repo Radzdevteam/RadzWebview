@@ -56,12 +56,3 @@ class MainActivity : ComponentActivity() {
    ```
 
 
-## Manifest
-In your `AndroidManifest`, add the following code:
-
-```groovy
-
-<activity android:name="com.radzdev.radzweb.radzweb"
-android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"/>
-
-   ```
