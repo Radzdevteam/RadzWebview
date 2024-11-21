@@ -31,7 +31,7 @@ dependencyResolutionManagement {
 ### Step 2. Add the dependency
 ```groovy
 dependencies {
-    implementation ("com.github.Radzdevteam:radzweb:1.0")
+    implementation ("com.github.Radzdevteam:RadzWebview:Tag")
 }
 
    ```
@@ -41,13 +41,14 @@ dependencies {
 In your `MainActivity`, add the following code:
 ```groovy
 class MainActivity : ComponentActivity() {
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        // Start the radzweb activity and pass the URL
         val intent = Intent(this, radzweb::class.java)
-        intent.putExtra("url", "https://google.com/")
+        intent.putExtra("url", "https://strm.great-site.net/")
         startActivity(intent)
+
         finish()
     }
 }
