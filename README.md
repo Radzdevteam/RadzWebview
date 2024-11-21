@@ -1,21 +1,19 @@
 # Radz Webview
 [![](https://jitpack.io/v/Radzdevteam/radzweb.svg)](https://jitpack.io/#Radzdevteam/radzweb)
 
-
 ## Features:
-
 1. URL Loading Functionality
-2. Ad Blocker Management 
-3. Intent URL Blocking  
-4. Popup and Ad Blocking  
-5. Fullscreen Video Support  
-6. Loading Animation  
-7. Refresh WebView  
-8. Back Navigation  
-9. User-Agent String Management  
-10. Swipe to Refresh  
-11. Handle HTTP Response Codes  
-12. Custom Error Pages
+2. Swipe-to-Refresh
+3. Custom WebView Settings
+4. Ad Blocker
+5. SSL Error Handling
+6. Custom Full-Screen Video Support
+7. Network Connectivity Check
+8. Persistent WebView State
+9. Loading Animation
+10. Error Handling for Network and SSL Issues
+11. Custom WebViewClient Implementation
+12. Resource Fetching
 
 ## How to Include
 ### Step 1. Add the repository to your project settings.gradle:
