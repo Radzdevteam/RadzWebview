@@ -1,5 +1,5 @@
 # Radz Webview
-[![](https://jitpack.io/v/Radzdevteam/radzweb.svg)](https://jitpack.io/#Radzdevteam/radzweb)
+[![](https://jitpack.io/v/Radzdevteam/RadzWebview.svg)](https://jitpack.io/#Radzdevteam/RadzWebview)
 
 ## Features:
 1. URL Loading Functionality
